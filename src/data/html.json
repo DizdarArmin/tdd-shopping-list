@@ -1,0 +1,4 @@
+{
+  "name": { "type": "text", "placeholder": "Sofa" },
+  "price": { "type": "number", "placeholder": 1250 }
+}

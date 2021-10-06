@@ -1,0 +1,94 @@
+.html {
+  overflow-y: scroll;
+}
+.container {
+  color: white;
+  min-height: 100vh;
+  max-width: 768px;
+  background-color: $secondary;
+  padding-top: 48px;
+  background-image: url("https://www.transparenttextures.com/patterns/gradient-squares.png");
+}
+.container-fluid {
+  padding: 0;
+  background-color: $primary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.completed-holder {
+  margin: 16px 0;
+  width: 100%;
+  display: flex;
+}
+.labels {
+  display: flex;
+}
+.form-control {
+  height: 44px;
+  border: none;
+  border-radius: 0;
+  border-radius: inherit;
+}
+.form-control:active,
+.form-control:focus {
+  box-shadow: none;
+}
+
+.input {
+  display: flex;
+}
+
+.button {
+  background-color: $primary;
+  color: white;
+  flex: 1;
+  border: none;
+  padding: none !important;
+}
+.button:active,
+.link-button:active,
+.button:hover,
+.link-button:hover {
+  background-color: $ternary;
+  color: $primary;
+}
+
+.task {
+  padding: 0 8px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 88px;
+  background-color: $primary;
+}
+.task-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.task-item h5 {
+  margin: 0;
+}
+.link-button {
+  border: none;
+  background-color: $primary;
+  color: white;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+.sorter {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sorter button {
+  width: fit-content;
+  padding: 0 24px;
+}
